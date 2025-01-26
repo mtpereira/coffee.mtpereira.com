@@ -1,0 +1,142 @@
+# page title
+head:
+  title: "Manuel Tiago Pereira - Coffee nerd turned professional"
+  description: "Get to know me a bit and how I can help you with your coffee business."
+# showcase
+showcase:
+  enable: true
+  title: "Coffee nerd turned professional"
+  subtitle: "How can I help you today?"
+  description: >
+    I'm here to help you with your coffee - whether your looking for help with your cafe's drinks and service, sensory needs on your roastery, or even your home brewing, I can support and help you get the cup of coffee you're looking for!
+  image:
+    x: "images/showcase.png"
+    _2x: "images/showcase.png"
+  imageMobile:
+    x: "images/showcase.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:coffee@mtpereira.com"
+
+  socialLinks:
+    # - icon: "linkedin"
+    #   URL: "https://www.linkedin.com/in/adrianmoreno/"
+    #
+    # - icon: "github"
+    #   URL: "https://github.com/mtpereira"
+    #
+    # - icon: "twitter"
+    #   URL: "https://twitter.com/zetxek"
+    #
+    # - icon: "youtube"
+    #   URL: "#"
+    - icon: "instagram"
+      URL: "https://www.instagram.com/manueltiagopereira/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: >
+    <p>TL;DR: I thrive on learning, and love to share what I learn with others!</p>
+
+    <p>I'm a coffee nerd that loves to share beautiful cups of coffee with everyone! I've been working my way into the coffee industry ever since I was a 2023 AeroPress World Championship contender, and got to visit Melbourne, Australia. This trip made me realise how much I love coffee, and how little I still know about it and the industry surrounding it.</p>
+
+    <p>For this reason, I've started to look for opportunities to get involved, which got me doing barista service, workshops, coffee tastings, and roasting coffee.</p>  
+
+  button:
+    # icon: "instagram"
+    btnText: "My Instagram"
+    URL: "https://www.instagram.com/manueltiagopereira"
+  image:
+    x: "images/who-am-i.jpg"
+    _2x: "images/who-am-i.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: abcoffee
+      year: 2024 Oct.
+      degree: SCA Sensory Intermediate
+    - university: Equilibrium Master Roasters
+      year: 2023 Dec.
+      degree: Roasting crash course
+    - university: Técnico, Universidade de Lisboa
+      year: 2004 - 2008
+      degree: Bachelor in Computer Science and Engineering
+
+# experience
+experience:
+  enable: true
+  title: "Projects, awards, and work experience"
+  description: >
+    Besides what you can find on my CV, I've done several open and private cuppings (e.g., coffee tastings), and informal sensory consultations.
+  button:
+    icon: "icon-profile-fill"
+    btnText: "Check my CV"
+    URL: "/files/cv.pdf"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Manuel Tiago Pereira"
+    email: "coffee@mtpereira.com"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+555 (11) 123 44 55"
+  email:
+    title: "Email"
+    email: '<a href="mailto:mail@example.com">mail@example.com</a>'
+  address:
+    title: "Address"
+    address: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
